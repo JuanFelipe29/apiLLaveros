@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 
 # Allowed hosts
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "*").split(' ') if not DEBUG else []
+#ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "*").split(' ') if not DEBUG else []
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
